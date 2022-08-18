@@ -34,7 +34,6 @@ a {
 .header-links {
     display: flex;
     gap: 25px;
-    /* margin-left: 500px; */
 }
 
 .hero {
@@ -70,6 +69,14 @@ a {
     width: 100px;
     padding: 5px;
     font-weight: bold;
+}
+
+.heroa.info button:hover {
+    background-color: #bb777f;
+}
+
+.heroa.info button:active {
+    background-color: #fffbbd;
 }
 
 .skills-container {
@@ -149,4 +156,13 @@ footer {
     padding: 20px;
     background-color: #413b70;
     text-align: center;
+}
+
+button:hover {
+    background-color: #e7a34a;
+    transition: 0.8s;
+}
+
+button:active {
+    background-color: #fffbbd;
 }
